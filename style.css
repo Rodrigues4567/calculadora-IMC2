@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'padrao';
+    src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #005663;
+    font-family: 'padrao', sans-serif;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 480px;
+    border-radius: 8px;
+    background-color: rgb(245, 243, 243);
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 8px;
+    font-size: 1.3rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: 'padrao', sans-serif;
+    cursor: pointer;
+}
