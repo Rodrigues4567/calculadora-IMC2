@@ -43,13 +43,19 @@ h1 {
 .input {
     padding: 8px;
     font-size: 1.3rem;
-    width: 20rem;
+    width: 23rem;
     margin-bottom: 1rem;
 }
 
 .button {
     padding: 10px;
     font-size: 1.1rem;
+    width: 23rem;
     font-family: 'padrao', sans-serif;
     cursor: pointer;
+}
+
+.resultado {
+    margin-top: 1.6rem;
+    width: 23rem;
 }
